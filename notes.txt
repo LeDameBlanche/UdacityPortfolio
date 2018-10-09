@@ -1,0 +1,13 @@
+const CHARACTER_LIMIT = 255;
+const posts = [
+"...."
+];
+
+// prints posts to the console
+function displayPosts() {
+	for (let i = 0; i < posts.length; i++) {
+		console.log(posts[i].slice(0, CHARACTER_LIMIT));
+	}
+}
+
+displayPosts();
